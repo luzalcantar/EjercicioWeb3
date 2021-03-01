@@ -1,0 +1,77 @@
+html, body {
+    height: -webkit-fill-available;
+}
+body {
+    padding: 25px 75px;
+    background: rgb(174,104,236);
+    background: linear-gradient(0deg, rgba(174,104,236,1) 0%, rgba(131,54,182,1) 100%);
+}
+ul.nav {
+    float: right;
+}
+.panel.panel-default {
+    background: white;
+    padding: 50px 30px;
+    border-radius: 10px;
+    margin: 35px auto;
+    width: 60%;
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.36);
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.36);
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    width: 50%;
+}
+
+.panel-heading {
+    padding: 0 0 15px 0;
+}
+.nav-menu {
+    display: -webkit-box;
+}
+.float-right {
+    text-align: right;
+    width: 50%;
+}
+
+.in_div {
+    padding: 10px 0 25px;
+}
+input.btn.btn-primary.form-control.btn-factorial {
+    width: 100%;
+    float: right;
+    padding: inherit;
+    height: auto;
+    padding: 10px 30px;
+}
+p.mensaje {
+    text-align: center;
+    font-size: 20px;
+}
+.btn.btn-primary.btn-return {
+    width: -webkit-fill-available;
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+@media (max-width: 1017px) {
+    .panel.panel-default {
+        width: 100%;
+    }
+}
+
+@media (max-width: 923px) {
+    h1 {
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    body {
+        padding: 25px 25px;
+    }
+}
